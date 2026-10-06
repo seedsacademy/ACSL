@@ -61,15 +61,11 @@ Why Two's Complement?
 1. $+43_{10} = 00101011_2$
 2. Invert all bits:
 
-   $$
-   \sim (00101011) = 11010100
-   $$
+   $\displaystyle \sim (00101011) = 11010100$
 
 3. Add 1:
 
-   $$
-   11010100 + 1 = \mathbf{11010101_2} = \mathbf{D5_{16}}
-   $$
+   $\displaystyle 11010100 + 1 = \mathbf{11010101_2} = \mathbf{D5_{16}}$
 
 ### Decoding Negative Two's Complement:
 - If MSB is `1`, it is negative.
@@ -100,9 +96,7 @@ $$
    - $f(18) = f(f(23)) = f(20) = 19$.
 4. **Identify the Invariant**: Even inputs yield 19, odd yield 18!
 
-   $$
-   \mathbf{f(12) = 19}
-   $$
+   $\displaystyle \mathbf{f(12) = 19}$
 
 ---
 

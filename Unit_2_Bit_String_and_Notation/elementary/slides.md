@@ -47,21 +47,15 @@ Every math expression has **operands** (numbers) and **operators** ($+, -, *, /$
 
 1. **Infix**: Operator in the middle
 
-   $$
-   3 + 4
-   $$
+   $\displaystyle 3 + 4$
 
 2. **Prefix (Polish)**: Operator in front
 
-   $$
-   {}+ \ 3 \ 4
-   $$
+   $\displaystyle {}+ \ 3 \ 4$
 
 3. **Postfix (Reverse Polish)**: Operator in the back
 
-   $$
-   3 \ 4 \ +
-   $$
+   $\displaystyle 3 \ 4 \ +$
 
 *All three evaluate to 7!*
 
@@ -133,9 +127,7 @@ $$
 
 1. **Step 1**: Fully parenthesize by PEMDAS:
 
-   $$
-   ((A + B) * (C - D))
-   $$
+   $\displaystyle ((A + B) * (C - D))$
 
 2. **Step 2**: Move each operator to its **matching RIGHT parenthesis**:
    - $(A + B) \rightarrow (A \ B \ \mathbf{+})$
@@ -143,6 +135,4 @@ $$
    - $((AB+) * (CD-)) \rightarrow ((AB+) (CD-) \ \mathbf{*})$
 3. Erase parentheses:
 
-   $$
-   \mathbf{A \ B \ + \ C \ D \ - \ *}
-   $$
+   $\displaystyle \mathbf{A \ B \ + \ C \ D \ - \ *}$

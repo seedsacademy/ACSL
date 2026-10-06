@@ -45,25 +45,17 @@ style: |
 
 - **De Morgan's**:
 
-  $$
-  \overline{A \cdot B} = \overline{A} + \overline{B} \quad \text{and} \quad \overline{A + B} = \overline{A} \cdot \overline{B}
-  $$
+  $\displaystyle \overline{A \cdot B} = \overline{A} + \overline{B} \quad \text{and} \quad \overline{A + B} = \overline{A} \cdot \overline{B}$
 
 - **Absorption**:
 
-  $$
-  A + A B = A \quad \text{and} \quad A(A + B) = A
-  $$
+  $\displaystyle A + A B = A \quad \text{and} \quad A(A + B) = A$
 
-  $$
-  \mathbf{A + \overline{A} B = A + B}
-  $$
+  $\displaystyle \mathbf{A + \overline{A} B = A + B}$
 
 - **The Secret Distributive Law**:
 
-  $$
-  \mathbf{A + B C = (A + B)(A + C)}
-  $$
+  $\displaystyle \mathbf{A + B C = (A + B)(A + C)}$
 
 ---
 
@@ -85,18 +77,12 @@ style: |
 
 1. **Inorder (Left - Root - Right)**:
 
-   $$
-   \mathbf{A, B, D, F, G, I} \quad \text{(Always Alphabetical!)}
-   $$
+   $\displaystyle \mathbf{A, B, D, F, G, I} \quad \text{(Always Alphabetical!)}$
 
 2. **Preorder (Root - Left - Right)**:
 
-   $$
-   \mathbf{F, B, A, D, G, I}
-   $$
+   $\displaystyle \mathbf{F, B, A, D, G, I}$
 
 3. **Postorder (Left - Right - Root)**:
 
-   $$
-   \mathbf{A, D, B, I, G, F}
-   $$
+   $\displaystyle \mathbf{A, D, B, I, G, F}$

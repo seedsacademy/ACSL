@@ -73,20 +73,14 @@ In any tree where every node has either 0 or 2 children:
 
 1. **Leaves vs. Internals**:
 
-   $$
-   \mathbf{L = I + 1}
-   $$
+   $\displaystyle \mathbf{L = I + 1}$
 
 2. **Total Nodes ($N$)**:
 
-   $$
-   \mathbf{N = 2I + 1 = 2L - 1}
-   $$
+   $\displaystyle \mathbf{N = 2I + 1 = 2L - 1}$
 
 3. **Maximum Nodes for Height $h$**:
 
-   $$
-   \mathbf{N_{max} = 2^{h+1} - 1}
-   $$
+   $\displaystyle \mathbf{N_{max} = 2^{h+1} - 1}$
 
 *Contest Speed Trick: If a problem says "strictly binary tree with 50 leaves", instantly internal nodes $I = 49$ and total nodes $N = 99$!*
