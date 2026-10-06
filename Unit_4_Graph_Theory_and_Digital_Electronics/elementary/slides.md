@@ -1,10 +1,13 @@
 ---
 marp: true
+---
+
+<!--
 theme: gaia
 _class: lead
 paginate: true
-backgroundColor: #ffffff
-color: #1a1a2e
+backgroundColor: "#ffffff"
+color: "#1a1a2e"
 style: |
   section {
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -15,7 +18,7 @@ style: |
   code { background: #e0f2f1; color: #004d40; padding: 2px 6px; border-radius: 4px; }
   .highlight { background-color: #fff9c4; padding: 2px 8px; border-radius: 4px; }
   footer { font-size: 0.5em; color: #78909c; }
----
+-->
 
 # 🚀 ACSL Contest 4: Elementary Division
 ## Graph Theory Foundations
