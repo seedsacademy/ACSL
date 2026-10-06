@@ -21,12 +21,21 @@ This curriculum prepares elementary students (Grades 3–6) for **ACSL Contest 1
 ### 📘 Core Content & Worked Examples
 
 #### Concept 1: Binary Place Values
-In Base 10: $345 = 3 \times 10^2 + 4 \times 10^1 + 5 \times 10^0 = 300 + 40 + 5$.
-In Base 2: $10110_2 = 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 0 \times 2^0 = 16 + 0 + 4 + 2 + 0 = 22_{10}$.
+In Base 10:
+
+$$345 = 3 \times 10^2 + 4 \times 10^1 + 5 \times 10^0 = 300 + 40 + 5$$
+
+In Base 2:
+
+$$10110_2 = 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 0 \times 2^0 = 16 + 0 + 4 + 2 + 0 = 22_{10}$$
 
 #### Worked Example 1: Convert $11011_2$ to Base 10
 - Step 1: Write weights over bits:
-  $$\begin{array}{ccccc} 16 & 8 & 4 & 2 & 1 \\ \mathbf{1} & \mathbf{1} & \mathbf{0} & \mathbf{1} & \mathbf{1} \end{array}$$
+
+  $$
+  \begin{array}{ccccc} 16 & 8 & 4 & 2 & 1 \\ \mathbf{1} & \mathbf{1} & \mathbf{0} & \mathbf{1} & \mathbf{1} \end{array}
+  $$
+
 - Step 2: Sum the active weights: $16 + 8 + 0 + 2 + 1 = 27_{10}$.
 
 #### Worked Example 2: Convert $53_{10}$ to Binary

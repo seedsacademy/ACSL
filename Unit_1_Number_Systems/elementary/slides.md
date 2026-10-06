@@ -68,9 +68,16 @@ Each position is a **Power of 2**!
 ### Worked Example: Convert $11011_2$ to Base 10
 
 1. Align the bits with the powers of 2:
-   $$\begin{array}{ccccc} 16 & 8 & 4 & 2 & 1 \\ \mathbf{1} & \mathbf{1} & \mathbf{0} & \mathbf{1} & \mathbf{1} \end{array}$$
+
+   $$
+   \begin{array}{ccccc} 16 & 8 & 4 & 2 & 1 \\ \mathbf{1} & \mathbf{1} & \mathbf{0} & \mathbf{1} & \mathbf{1} \end{array}
+   $$
+
 2. Add the numbers that have a `1` underneath:
-   $$\text{Sum} = 16 + 8 + 0 + 2 + 1 = \mathbf{27_{10}}$$
+
+   $$
+   \text{Sum} = 16 + 8 + 0 + 2 + 1 = \mathbf{27_{10}}
+   $$
 
 🎯 *Rule: If the bit is 1, take the weight. If 0, skip it!*
 
@@ -130,9 +137,16 @@ $$\text{Octal} \xleftrightarrow{\text{Group by 3}} \text{Binary} \xleftrightarro
 
 ### Example: Convert $75_8$ to Hexadecimal
 1. Convert each octal digit to 3 bits:
-   $$7 \rightarrow 111, \quad 5 \rightarrow 101 \implies 111101_2$$
+
+   $$
+   7 \rightarrow 111, \quad 5 \rightarrow 101 \implies 111101_2
+   $$
+
 2. Regroup into 4 bits from the right:
-   $$(0011)(1101)_2 = 3 \quad \text{D} \implies \mathbf{3D_{16}}$$
+
+   $$
+   (0011)(1101)_2 = 3 \quad \text{D} \implies \mathbf{3D_{16}}
+   $$
 
 ---
 
