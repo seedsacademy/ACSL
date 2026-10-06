@@ -32,7 +32,9 @@ $$10110_2 = 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 0 \times
 #### Worked Example 1: Convert $11011_2$ to Base 10
 - Step 1: Write weights over bits:
 
-  $\displaystyle \begin{array}{ccccc} 16 & 8 & 4 & 2 & 1 \\ \mathbf{1} & \mathbf{1} & \mathbf{0} & \mathbf{1} & \mathbf{1} \end{array}$
+  | Weight | 16 | 8 | 4 | 2 | 1 |
+  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | **Bit** | **1** | **1** | **0** | **1** | **1** |
 
 - Step 2: Sum the active weights: $16 + 8 + 0 + 2 + 1 = 27_{10}$.
 

@@ -75,7 +75,9 @@ Each position is a **Power of 2**!
 
 1. Align the bits with the powers of 2:
 
-   $\displaystyle \begin{array}{ccccc} 16 & 8 & 4 & 2 & 1 \\ \mathbf{1} & \mathbf{1} & \mathbf{0} & \mathbf{1} & \mathbf{1} \end{array}$
+   | Weight | 16 | 8 | 4 | 2 | 1 |
+   | :---: | :---: | :---: | :---: | :---: | :---: |
+   | **Bit** | **1** | **1** | **0** | **1** | **1** |
 
 2. Add the numbers that have a `1` underneath:
 
