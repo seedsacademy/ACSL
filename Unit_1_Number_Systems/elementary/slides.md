@@ -55,7 +55,10 @@ style: |
 ## Positional Notation: Base 10 vs. Base 2
 
 ### In Base 10 (Decimal):
-$$543 = 5 \times 10^2 + 4 \times 10^1 + 3 \times 10^0 = 500 + 40 + 3$$
+
+$$
+543 = 5 \times 10^2 + 4 \times 10^1 + 3 \times 10^0 = 500 + 40 + 3
+$$
 
 ### In Base 2 (Binary):
 Each position is a **Power of 2**!
@@ -110,8 +113,13 @@ Each position is a **Power of 2**!
 ## The Hexadecimal Letters
 Because base 16 needs 16 single symbols, we use letters for values 10 to 15:
 
-$$\mathbf{A = 10} \quad \mathbf{B = 11} \quad \mathbf{C = 12}$$
-$$\mathbf{D = 13} \quad \mathbf{E = 14} \quad \mathbf{F = 15}$$
+$$
+\mathbf{A = 10} \quad \mathbf{B = 11} \quad \mathbf{C = 12}
+$$
+
+$$
+\mathbf{D = 13} \quad \mathbf{E = 14} \quad \mathbf{F = 15}
+$$
 
 ⚡ *Tutor Speed Tip: Always write A=10 through F=15 at the top of your test sheet immediately!*
 
@@ -124,11 +132,17 @@ $$\mathbf{D = 13} \quad \mathbf{E = 14} \quad \mathbf{F = 15}$$
 
 ### Converting Binary $\rightarrow$ Octal:
 Group into sets of **3 bits from right to left**!
-$$11010110_2 \rightarrow (011)(010)(110)_2 = \mathbf{326_8}$$
+
+$$
+11010110_2 \rightarrow (011)(010)(110)_2 = \mathbf{326_8}
+$$
 
 ### Converting Binary $\rightarrow$ Hexadecimal:
 Group into sets of **4 bits from right to left**!
-$$11010110_2 \rightarrow (1101)(0110)_2 = \mathbf{D6_{16}}$$
+
+$$
+11010110_2 \rightarrow (1101)(0110)_2 = \mathbf{D6_{16}}
+$$
 
 ---
 
@@ -136,7 +150,9 @@ $$11010110_2 \rightarrow (1101)(0110)_2 = \mathbf{D6_{16}}$$
 
 **Never convert Octal to Hex through Base 10!** Always use Binary in between:
 
-$$\text{Octal} \xleftrightarrow{\text{Group by 3}} \text{Binary} \xleftrightarrow{\text{Group by 4}} \text{Hexadecimal}$$
+$$
+\text{Octal} \xleftrightarrow{\text{Group by 3}} \text{Binary} \xleftrightarrow{\text{Group by 4}} \text{Hexadecimal}
+$$
 
 ### Example: Convert $75_8$ to Hexadecimal
 1. Convert each octal digit to 3 bits:

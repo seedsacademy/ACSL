@@ -45,11 +45,19 @@ style: |
 
 For any string of length $n$:
 
-$$\text{LCIRC-}k = \text{LCIRC-}(k \bmod n)$$
-$$\text{RCIRC-}k = \text{RCIRC-}(k \bmod n)$$
+$$
+\text{LCIRC-}k = \text{LCIRC-}(k \bmod n)
+$$
+
+$$
+\text{RCIRC-}k = \text{RCIRC-}(k \bmod n)
+$$
 
 ### Example: Length 5 String
-$$\text{LCIRC-13 } (10110) = \text{LCIRC-}(13 \bmod 5) = \text{LCIRC-3 } (10110) = \mathbf{10101}$$
+
+$$
+\text{LCIRC-13 } (10110) = \text{LCIRC-}(13 \bmod 5) = \text{LCIRC-3 } (10110) = \mathbf{10101}
+$$
 
 ---
 
@@ -63,7 +71,9 @@ $$\text{LCIRC-13 } (10110) = \text{LCIRC-}(13 \bmod 5) = \text{LCIRC-3 } (10110)
 
 ACSL frequently uses `@` for **Unary Minus** (single operand) and relational operators ($<, >, =$):
 
-$$+ \ * \ > \ 5 \ 3 \ 4 \ @ \ 6$$
+$$
+{}+ \ * \ > \ 5 \ 3 \ 4 \ @ \ 6
+$$
 
 1. Notice $> \ 5 \ 3 \implies 5 > 3$ is **True (1)**.
 2. Notice $@ \ 6 \implies \mathbf{-6}$.

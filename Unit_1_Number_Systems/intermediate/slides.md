@@ -60,9 +60,16 @@ Why Two's Complement?
 
 1. $+43_{10} = 00101011_2$
 2. Invert all bits:
-   $$\sim (00101011) = 11010100$$
+
+   $$
+   \sim (00101011) = 11010100
+   $$
+
 3. Add 1:
-   $$11010100 + 1 = \mathbf{11010101_2} = \mathbf{D5_{16}}$$
+
+   $$
+   11010100 + 1 = \mathbf{11010101_2} = \mathbf{D5_{16}}
+   $$
 
 ### Decoding Negative Two's Complement:
 - If MSB is `1`, it is negative.
@@ -79,7 +86,9 @@ Why Two's Complement?
 
 ## Tackling Nested Recursive Calls
 
-$$f(x) = \begin{cases} x - 3 & \text{if } x > 20 \\ f(f(x + 5)) & \text{if } x \le 20 \end{cases}$$
+$$
+f(x) = \begin{cases} x - 3 & \text{if } x > 20 \\ f(f(x + 5)) & \text{if } x \le 20 \end{cases}
+$$
 
 ### Speed Strategy:
 1. Don't trace blindly from $f(12)$!
@@ -90,7 +99,10 @@ $$f(x) = \begin{cases} x - 3 & \text{if } x > 20 \\ f(f(x + 5)) & \text{if } x \
    - $f(19) = f(f(24)) = f(21) = 18$.
    - $f(18) = f(f(23)) = f(20) = 19$.
 4. **Identify the Invariant**: Even inputs yield 19, odd yield 18!
-   $$\mathbf{f(12) = 19}$$
+
+   $$
+   \mathbf{f(12) = 19}
+   $$
 
 ---
 

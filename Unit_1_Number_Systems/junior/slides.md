@@ -44,13 +44,22 @@ style: |
 ## Positional Expansion in Base $b$
 
 Any number with integer and fractional parts in base $b$:
-$$N = d_k b^k + \dots + d_1 b^1 + d_0 b^0 + d_{-1} b^{-1} + d_{-2} b^{-2} + \dots$$
+
+$$
+N = d_k b^k + \dots + d_1 b^1 + d_0 b^0 + d_{-1} b^{-1} + d_{-2} b^{-2} + \dots
+$$
 
 ### Example: Evaluate $243_5$
-$$2 \times 5^2 + 4 \times 5^1 + 3 \times 5^0 = 50 + 20 + 3 = \mathbf{73_{10}}$$
+
+$$
+2 \times 5^2 + 4 \times 5^1 + 3 \times 5^0 = 50 + 20 + 3 = \mathbf{73_{10}}
+$$
 
 ### Example: Fractional Expansion
-$$0.1011_2 = \frac{1}{2} + \frac{0}{4} + \frac{1}{8} + \frac{1}{16} = \frac{11}{16} = \mathbf{0.6875_{10}}$$
+
+$$
+0.1011_2 = \frac{1}{2} + \frac{0}{4} + \frac{1}{8} + \frac{1}{16} = \frac{11}{16} = \mathbf{0.6875_{10}}
+$$
 
 ---
 
@@ -63,7 +72,9 @@ $$0.1011_2 = \frac{1}{2} + \frac{0}{4} + \frac{1}{8} + \frac{1}{16} = \frac{11}{
 3. $0.5 \times 2 = \mathbf{1}.0 \implies \text{third bit is } 1$
 4. Remainder is $0$ $\rightarrow$ Terminate!
 
-$$\mathbf{0.625_{10} = 0.101_2}$$
+$$
+\mathbf{0.625_{10} = 0.101_2}
+$$
 
 ---
 
@@ -80,7 +91,7 @@ Rule: If sum $\ge 16$, subtract 16 and carry 1.
 $$\begin{array}{r@{\quad}l}
   \text{Carries:} & 1 \quad 1 \\
   & 3 \quad \text{A} \quad 9_{16} \\
-+ & 7 \quad \text{C} \quad 5_{16} \\
+{}+ & 7 \quad \text{C} \quad 5_{16} \\
 \hline
 & \mathbf{B} \quad \mathbf{6} \quad \mathbf{E}_{16}
 \end{array}$$
@@ -100,7 +111,10 @@ $$\begin{array}{r@{\quad}l}
 ## Multi-Branch Recursion Tree
 
 Given:
-$$f(n) = \begin{cases} n & \text{if } n \le 1 \\ f(n-1) + f(n-2) & \text{if } n > 1 \end{cases}$$
+
+$$
+f(n) = \begin{cases} n & \text{if } n \le 1 \\ f(n-1) + f(n-2) & \text{if } n > 1 \end{cases}
+$$
 
 ```text
                f(4)
@@ -139,4 +153,6 @@ PRINT A(2) + A(4)
 3. $I = 3: A(3) = 15 \pmod 6 = 3$
 4. $I = 4: A(4) = 20 \pmod 6 = 2$
 
-$$\text{Output: } A(2) + A(4) = 4 + 2 = \mathbf{6}$$
+$$
+\text{Output: } A(2) + A(4) = 4 + 2 = \mathbf{6}
+$$

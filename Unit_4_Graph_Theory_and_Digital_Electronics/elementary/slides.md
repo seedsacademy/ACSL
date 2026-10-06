@@ -43,7 +43,9 @@ style: |
 
 ## The Handshaking Lemma
 
-$$\sum \text{deg}(v) = 2 \times E$$
+$$
+\sum \text{deg}(v) = 2 \times E
+$$
 
 - **Degree**: Number of edges connected to a vertex.
 - **Why $2 \times E$?**

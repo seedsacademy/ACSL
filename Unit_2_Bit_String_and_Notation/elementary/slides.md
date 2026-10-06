@@ -46,11 +46,22 @@ style: |
 Every math expression has **operands** (numbers) and **operators** ($+, -, *, /$):
 
 1. **Infix**: Operator in the middle
-   $$3 + 4$$
+
+   $$
+   3 + 4
+   $$
+
 2. **Prefix (Polish)**: Operator in front
-   $$+ \ 3 \ 4$$
+
+   $$
+   {}+ \ 3 \ 4
+   $$
+
 3. **Postfix (Reverse Polish)**: Operator in the back
-   $$3 \ 4 \ +$$
+
+   $$
+   3 \ 4 \ +
+   $$
 
 *All three evaluate to 7!*
 
@@ -62,7 +73,7 @@ In addition and multiplication, order doesn't change the answer ($3+4 = 4+3$).
 **In subtraction and division, ORDER MATTERS!**
 
 $$\begin{aligned}
-- \ 8 \ 3 &\implies 8 - 3 = \mathbf{5} \\
+{}- \ 8 \ 3 &\implies 8 - 3 = \mathbf{5} \\
 8 \ 3 \ - &\implies 8 - 3 = \mathbf{5} \\
 / \ 12 \ 4 &\implies 12 / 4 = \mathbf{3} \\
 12 \ 4 \ / &\implies 12 / 4 = \mathbf{3}
@@ -82,7 +93,9 @@ $$\begin{aligned}
 
 Find the first operator immediately followed by two numbers:
 
-$$+ \ * \ 2 \ 3 \ - \ 8 \ 4$$
+$$
+{}+ \ * \ 2 \ 3 \ - \ 8 \ 4
+$$
 
 1. Notice $- \ 8 \ 4 \implies 8 - 4 = \mathbf{4}$
    Expression: $+ \ * \ 2 \ 3 \ \mathbf{4}$
@@ -96,7 +109,9 @@ $$+ \ * \ 2 \ 3 \ - \ 8 \ 4$$
 
 Find the first two numbers followed by an operator:
 
-$$8 \ 2 \ / \ 5 \ * \ 3 \ -$$
+$$
+8 \ 2 \ / \ 5 \ * \ 3 \ -
+$$
 
 1. First pair: $8 \ 2 \ / \implies 8 / 2 = \mathbf{4}$
    Expression: $\mathbf{4} \ 5 \ * \ 3 \ -$
@@ -117,10 +132,17 @@ $$8 \ 2 \ / \ 5 \ * \ 3 \ -$$
 **Problem: Convert $(A + B) * (C - D)$ to Postfix**
 
 1. **Step 1**: Fully parenthesize by PEMDAS:
-   $$((A + B) * (C - D))$$
+
+   $$
+   ((A + B) * (C - D))
+   $$
+
 2. **Step 2**: Move each operator to its **matching RIGHT parenthesis**:
    - $(A + B) \rightarrow (A \ B \ \mathbf{+})$
    - $(C - D) \rightarrow (C \ D \ \mathbf{-})$
    - $((AB+) * (CD-)) \rightarrow ((AB+) (CD-) \ \mathbf{*})$
 3. Erase parentheses:
-   $$\mathbf{A \ B \ + \ C \ D \ - \ *}$$
+
+   $$
+   \mathbf{A \ B \ + \ C \ D \ - \ *}
+   $$

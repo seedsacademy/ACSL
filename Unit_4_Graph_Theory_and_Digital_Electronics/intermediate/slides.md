@@ -45,10 +45,16 @@ style: |
 
 If $A$ is the $0/1$ adjacency matrix of graph $G$:
 
-$$(A^k)_{i, j} = \text{The exact number of walks of length } k \text{ from vertex } i \text{ to vertex } j$$
+$$
+(A^k)_{i, j} = \text{The exact number of walks of length } k \text{ from vertex } i \text{ to vertex } j
+$$
 
 ### Special Diagonal Property:
-$$(A^2)_{i, i} = \text{deg}(v_i)$$
+
+$$
+(A^2)_{i, i} = \text{deg}(v_i)
+$$
+
 *(In an undirected graph with no self-loops, the diagonal of $A^2$ gives the degree of each vertex!)*
 
 ---

@@ -53,7 +53,10 @@ Operate bit-by-bit simultaneously on strings of the same length:
 | 1 | 1 | 0 | 1 | 1 | 0 |
 
 🔥 **ACSL Official Precedence**:
-$$\mathbf{(Parentheses) \rightarrow NOT \rightarrow AND \rightarrow XOR \rightarrow OR}$$
+
+$$
+\mathbf{(Parentheses) \rightarrow NOT \rightarrow AND \rightarrow XOR \rightarrow OR}
+$$
 
 ---
 
@@ -81,7 +84,10 @@ Let $B = \mathbf{10110}$:
 ## Solving Bit Equations: Example
 
 Find all 5-bit strings $X$ that satisfy:
-$$(\text{LSHIFT-1 } X) \text{ AND } 10110 = 00100$$
+
+$$
+(\text{LSHIFT-1 } X) \text{ AND } 10110 = 00100
+$$
 
 1. Let $X = x_1 x_2 x_3 x_4 x_5$.
 2. $\text{LSHIFT-1 } X = x_2 x_3 x_4 x_5 0$.
